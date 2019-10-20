@@ -1,0 +1,31 @@
+
+body {
+    margin:0;
+    padding:0;
+}
+.container, #container {
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.content {
+    width:600px;
+    color:#fff;
+    text-align:center;
+    font-family:'Josefin Sans', sans-serif;
+    background:#ecb5ae13;
+}
+
+a {
+    text-decoration: none;
+    color:#ecb5ae;
+    transition:0.2s;
+}
+a:hover {
+    color:#fff;
+}
